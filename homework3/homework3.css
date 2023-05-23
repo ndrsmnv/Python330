@@ -1,0 +1,67 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.ordered-list {
+    list-style-type: upper-roman;
+    font-weight: 700;    
+}
+
+.photoshop {color:red;} 
+
+.photoshop > ol {
+    color: black; 
+    list-style-type: lower-latin;
+}
+
+.illustrator {color: orange;}
+
+.illustrator > ol {
+    color: black; 
+    list-style-type: lower-latin;
+}
+
+.verstka {
+    color: green
+}
+
+.verstka > ol {
+    color: black; 
+    list-style-type: lower-latin;
+}
+
+.verstka__li > ol {
+    list-style-image: url(images/orange_marker.png)
+}
+
+.green_marker {
+    list-style-image: url(images/green_marker.png)
+}
+
+.flash {
+    color:rgb(32, 167, 208)
+}
+
+.flash > ol {
+    list-style-type: lower-latin; color: black;
+}
+
+.cms {
+    color: rgb(126, 10, 126)
+}
+
+.cms > ol {
+    color: black; list-style-type: lower-latin
+}
+
+.red_marker {
+    list-style-image: url(images/red_marker.png)
+}
+
+.red_marker > ul {
+    list-style-image: url(images/blue_marker.png)
+}
+
+.black_marker {
+    list-style-image: url(images/black_marker.png)
+}
