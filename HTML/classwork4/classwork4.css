@@ -1,0 +1,18 @@
+body{
+    /* background-color: aquamarine;
+    background-image: url(background-image/leo.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100% ;
+    background-attachment: scroll; */
+    /* background: no-repeat 100% 100% rgb(0, 0, 0) url(background-image/leo.png) fixed; 
+    background-size: 100%; */
+    background: 
+    url(background-image/t3.png) repeat-y,
+    url(background-image/t4.png)  repeat-y top right,
+    url(background-image/leo.png);
+    
+
+}
+p{
+    background-color: rgba(0, 0, 255, 0.2);
+}
