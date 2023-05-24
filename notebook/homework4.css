@@ -1,0 +1,28 @@
+body{
+    font-family:montserrat, sans-serif;
+}
+.spring{
+    color: rgb(7, 177, 7);
+}
+a.spring:hover{
+    color:blue;
+}
+.summer{
+    color: red;    
+}
+a.summer:hover{
+    color:blue;
+}
+.autumn{
+    color: orange;
+}
+a.autumn:hover{
+    color:blue;
+}
+.winter{
+    color: rgb(47, 89, 193)
+}
+a.winter:hover{
+    color:blue;
+}
+
