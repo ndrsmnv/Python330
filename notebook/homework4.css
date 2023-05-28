@@ -1,7 +1,22 @@
 body{
     font-family:montserrat, sans-serif;
+    
 }
-.spring{
+ul{
+    border: px solid blue;
+    width: 10%;
+    padding: 100px auto;
+    margin: auto;
+    margin-top: 18%;
+    color: white
+}
+a{
+    color: white
+}
+a:hover{
+    color: aqua
+}
+/* .spring{
     color: rgb(7, 177, 7);
 }
 a.spring:hover{
@@ -24,5 +39,5 @@ a.autumn:hover{
 }
 a.winter:hover{
     color:blue;
-}
+} */
 
