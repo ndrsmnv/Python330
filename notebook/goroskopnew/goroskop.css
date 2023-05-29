@@ -1,0 +1,176 @@
+body{
+background-image: url(images/background.jpg);
+background-size: 100%;
+text-align: center;
+font-family: Montserrat, sans-serif;
+}
+img{
+    width: 30px;
+}
+h1, h2{
+    background: linear-gradient(135deg, #00ccff 40%, #ff00cc 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.oven{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px 30px 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;    
+}
+
+.telec{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px 30px 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+.blizneci{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px 30px 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+.rak{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px 30px 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    
+}
+.lev{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px 30px 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+.deva{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px 30px 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+.vesi{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px 30px 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+.scorpion{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px 30px 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+.strelec{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px 30px 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+.kozerog{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px 30px 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+.vodoley{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px 30px 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+.ribi{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px 30px 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+.button:hover{
+    color: black;
+    background-color: rgb(226, 225, 225);
+}
