@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+/* top */
+.top {
+  background: #f3f3f3;
+  padding-bottom: 120px;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 0;
+}
+.head ul {
+  display: flex;
+  list-style: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.head h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  margin: 0;
+}
+.head a {
+  color: #252b42;
+  text-decoration: none;
+}
+.head li {
+  margin-left: 21px;
+}
+.top h1 {
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  margin: 120px 0 40;
+}
+.top h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-bottom: 40px;
+}
+.button {
+  text-align: center;
+}
+.left {
+  width: 187px;
+  height: 48px;
+  background: #ffa62b;
+  border-radius: 37px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  border: none;
+  margin-right: 5px;
+}
+.right {
+  width: 157px;
+  height: 48px;
+  border: 1px solid #00a0c1;
+  border-radius: 37px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #00a0c1;
+  background-color: #fff;
+  margin-left: 5px;
+}
