@@ -1,32 +1,87 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		
-	</body>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="#file.php" method="get">
+      <fieldset>
+        <legend>Какие языки вы знаете?</legend>
+        <p>
+          <label for="ru">
+            <input type="checkbox" checked="" id="ru" /> Русский </label
+          ><br />
+          <input type="checkbox" id="en" /><label for="en"> Английский</label>
+          <br />
+          <input type="checkbox" /> Немецкий <br />
+          <input type="submit" value="Отправка" class="but" />
+        </p>
+      </fieldset>
+      <h2>Ваш отзыв:</h2>
+      <p>
+        <textarea cols="40" rows="6" placeholder="Ваш отзыв"></textarea>
+      </p>
+      <p>
+        <select>
+          <option>Понедельник</option>
+          <option>Вторник</option>
+          <option>Среда</option>
+          <option>Четверг</option>
+          <option selected>Пятница</option>
+          <option>Суббота</option>
+          <option>Воскресенье</option>
+        </select>
+      </p>
+      <p>
+        <select size="7" multiple>
+          <option disabled>День недели</option>
+          <option>Понедельник</option>
+          <option>Вторник</option>
+          <option>Среда</option>
+          <option>Четверг</option>
+          <option>Пятница</option>
+          <option>Суббота</option>
+          <option>Воскресенье</option>
+        </select>
+      </p>
+    </form>
+    <p>
+      Введите имя:
+      <input
+        type="text"
+        name="firstname"
+        placeholder="Имя"
+        size="40"
+        maxlength="40"
+      />
+    </p>
+    <p>
+      <label for="pass"> Пароль: </label
+      ><input type="password" name="psw" id="pass" />
+    </p>
+    <p><input type="file" /></p>
+    <h2>Какие языки вы знаете?</h2>
+
+    <h2>Ваш пол:</h2>
+    <p>
+      <input type="radio" name="pol" /> М <br />
+      <input type="radio" name="pol" /> Ж
+    </p>
+    <p>
+      <input type="reset" value="Обновить" />
+
+      <!-- то же самое что и батон -->
+      <input type="button" value="Кнопка" />
+      <button type="reset">Отправить</button>
+      <input type="image" src="1.png" />
+    </p>
+    <p>
+      <input type="color" />
+      <input type="range" />
+      <input type="week" />
+      <input type="email" />
+    </p>
+  </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
