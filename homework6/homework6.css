@@ -5,3 +5,43 @@
     float: right;
     margin-right: 50%
 } */
+tr, td, table{
+    /* border: 1px solid black; */
+    vertical-align: top;
+    width: 800px;
+}
+form{
+    border: 1px solid rgb(28, 84, 195);
+    width: 950px;    
+}
+.print{text-align:right;
+    margin: 0;
+  }
+  textarea{
+    max-width: 800px;
+  }
+  .create{
+   width:500px;
+   margin: 20px 50px  
+  }
+  .odin{
+    font-weight: bold;
+  }
+  th{
+    color: rgb(28, 84, 195);
+    
+  }
+  #dostup{
+    margin: 20px auto
+  }
+  #firstname, #secondname, #login, #psw, #psw2, #mail{
+    width: 230px
+  }
+  #answer{
+    width: 400px;
+  }
+  #mesto{
+    width: 100%;
+  }
+
+
