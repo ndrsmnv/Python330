@@ -6,14 +6,18 @@
     <link rel="stylesheet" href="homework6.css" />
   </head>
   <body>
-    <!-- <img class="logo" src="images/mail_logo.png" alt="" /> Change
-    language/Изменить язык -->
-    <select name="language" id="language">
-      <option>Русский</option>
-      <option>Английский</option>
-      <option>Немецкий</option>
-    </select>
-    <h1>Создать аккаунт</h1>
+    <header>
+      <img class="logo" src="images/mail_logo.png" alt="Gmail" />
+      <p class="lang">
+        Change language/Изменить язык
+        <select name="language" id="language">
+          <option>Русский</option>
+          <option>Английский</option>
+          <option>Немецкий</option>
+        </select>
+      </p>
+    </header>
+    <h2>Создать аккаунт</h2>
     <p>
       Ваш аккаунт Google обеспечивает доступ к Gmail и
       <a href="#">другим службам Google</a>. Если у вас уже усть аккаунт Google,
@@ -21,7 +25,10 @@
     </p>
     <form action="#" method="get">
       <table>
-        <th>Начало работы с Gmail</th>
+        <tr>
+          <th>Начало работы с Gmail</th>
+          <th></th>
+        </tr>
         <tr>
           <td class="odin"><label for="firstname">Имя:</label></td>
           <td>
@@ -123,8 +130,8 @@
             Введите символы, представленные на картинке ниже. <br />
             <img src="images/vernises.jpg" alt="captcha" /> <br />
             <input type="text" id="wordcheck" required />
-            <input type="image" src="images/chel.jpg" /><br />Буквы вводятся без
-            учета регистра.
+            <input type="image" src="images/chel.jpg" alt="Chel" /><br />Буквы
+            вводятся без учета регистра.
           </td>
         </tr>
         <tr>
@@ -135,7 +142,7 @@
             <br />
             <p class="print"><a href="#">Версия для печати </a></p>
 
-            <textarea name="" id="" cols="85" rows="6" disabled>
+            <textarea name="textarea" id="textarea" cols="85" rows="6" disabled>
 Условия использования Услуг Google
    1. Ваши отношения с Google
      1.1. Использование вами товаров, программного обеспечения, служб и веб-сайтов Google (далее – «Услуги», исключая какие-либо услуги, предоставляемые вам компанией Google в соответствии с отдельным письменным соглашением) регулируется условиями юридически обязательного соглашения между вами и Google. «Google» означает компанию Google Inc., основное место деятельности которой расположено по адресу: 1600 Амфитеатр Парквей, Маунтин-Вью, Калифорния 94043, США (1600 Amphitheater Parkway, Mountain View, CA 94043, United States). В настоящем документе изложены вопросы касательно содержания такого соглашения и содержатся основные условия такого соглашения.
