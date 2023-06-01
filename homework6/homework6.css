@@ -1,11 +1,10 @@
 body {
   max-width: 1050px;
-  margin: 2% 25%;
+  margin: 20px auto;
 }
 tr,
 td,
 table {
-  border: 1px solid black;
   vertical-align: top;
   table-layout: fixed;
 }
