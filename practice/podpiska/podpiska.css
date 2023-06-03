@@ -1,0 +1,104 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+body {
+  background-color: rgb(81, 153, 216);
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  /* background-color: rgb(224, 221, 210); */
+  margin: 100px auto 300px 0;
+  height: 500px;
+}
+.element {
+  border: 1px solid transparent;
+  width: 200px;
+  height: 400px;
+  text-align: center;
+  /* padding: 10px; */
+  margin: 30px 30px 30px 0;
+  background-color: white;
+  box-shadow: 0 0 10px;
+  border-radius: 10px;
+}
+.element ul {
+  list-style: none;
+  text-align: center;
+  padding: 5px;
+}
+ul li {
+  padding: 10px 0 7px;
+  font-weight: bold;
+  height: 50px;
+  color: white; /* прозрачный цвет букв */
+  -webkit-text-stroke: 1px black;
+}
+.header {
+  border-bottom: 4px solid;
+  padding: 0;
+  margin: 0;
+  color: white; /* прозрачный цвет букв */
+  -webkit-text-stroke: 1px black;
+}
+.price {
+  font-size: 60px;
+  margin: 10px 0 0 0;
+  color: white; /* прозрачный цвет букв */
+  -webkit-text-stroke: 1px black;
+}
+p {
+  margin: 0;
+  font-weight: bold;
+  color: white; /* прозрачный цвет букв */
+  -webkit-text-stroke: 1px black;
+}
+.first {
+  border-color: white;
+}
+.second {
+  border-color: black;
+}
+.third {
+  border-color: black;
+}
+.fourth {
+  border-color: white;
+}
+.one {
+  background-image: url(gig.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.two {
+  background-image: url(rab.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.three {
+  background-image: url(ded.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.four {
+  background-image: url(babka.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.element:hover {
+  width: 225px;
+  height: 425px;
+  margin: 0;
+  padding: 0;
+}
+.cenaodin {
+  color: white;
+}
+button {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid;
+}
