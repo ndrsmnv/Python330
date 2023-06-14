@@ -128,6 +128,6 @@ console.log(typeof(res)); */
 // console.log("d:", d);
 
 let a = 1;
-let b = ++a;
+let b = a++;
 let c = b + 5 + a;
-console.log(c);
+alert(c);
