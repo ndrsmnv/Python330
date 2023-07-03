@@ -58,28 +58,72 @@
 //     alert( a + "=" + b)
 // }
 
-let a = prompt("Введите номер дня недели")
-if (a == 1){alert ("Понедельник")
+// let a = prompt("Введите номер дня недели")
+// if (a == 1){alert ("Понедельник")
     
-}
-else if (a == 2){alert("Вторник")
+// }
+// else if (a == 2){alert("Вторник")
 
-}
-else if (a == 3){alert ("Среда") 
+// }
+// else if (a == 3){alert ("Среда") 
 
-}
-else if (a == 4){alert("Четверг") 
+// }
+// else if (a == 4){alert("Четверг") 
 
-}
-else if (a == 5){alert("Пятница") 
+// }
+// else if (a == 5){alert("Пятница") 
 
-}
-else if (a == 6){alert("Суббота") 
+// }
+// else if (a == 6){alert("Суббота") 
 
-}
-else if (a == 7){alert("Воскресенье") 
+// }
+// else if (a == 7){alert("Воскресенье") 
 
-}
-else {
-    alert("Такого дня нет")
+// }
+// else {
+//     alert("Такого дня нет")
+// }
+
+
+
+// if (5==6 || 1 > 2){
+//     console.log("True");
+// }
+// else{
+//     console.log("False");
+// }
+
+// console.log(!7);
+
+
+
+// let age = prompt("Введите возраст: ");
+// if(age < 18 || age >= 70){
+//     alert("Нельзя")
+// }
+// else{
+//     alert("Вы можете получить права")
+// }
+
+
+// switch(Условие){
+//     case значение:
+//         код;
+//         break;
+//         default:
+//             код
+// }
+
+
+let a = +prompt("Введите число: ")
+switch(a){
+    case 1:
+        alert ("Код 1");
+        break;
+    case 2:
+        alert ("Код 2")
+        break;
+        default:
+            alert ("хз")
+            break;
 }
